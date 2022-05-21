@@ -1,0 +1,50 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: rgba(238, 205, 17, 0.993)
+}
+
+.bio {
+  text-align: center;
+  color: rgba(238, 217, 101, 0.993);
+  font-size: 20px;
+  margin-top: 18px;
+}
+
+.waveButton {
+  cursor: pointer;
+  margin-top: 18px;
+  padding: 11px;
+  border: 2;
+  border-radius: 5px;
+  background-color: rgba(238, 217, 101, 0.993);
+  
+}
+
+#wave_msg {
+  outline-style: none;
+  border-radius: 5px;
+  margin-top: 18px;
+  height: 30px;
+}
+
+body {
+  /* background-color: blueviolet; */
+  background-image: url('./img/bg.jpg');
+  background-repeat: no-repeat;
+}
